@@ -3,14 +3,34 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
+}
+
+.Url-input {
+
+  padding: 10px;
+  margin-left: 20px;
+  width: 400px;
+}
+
+.submitBtn {
+  margin: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: medium;
+  color: green;
+}
+
+.submitBtn:hover{
+  background-color: green;
+  color: white;
 }
 
 .App-header {
